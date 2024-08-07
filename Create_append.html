@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="one">
+        
+    </div>
+    <script>
+        let container = document.getElementById("one");
+
+        let firstDiv = document.createElement("div");
+        container.appendChild(firstDiv);
+        firstDiv.className = "sub-container";
+        
+        let firstHeading = document.createElement("h1");
+        document.body.appendChild(firstHeading);
+        firstHeading.id = "main-heading";
+
+        let text = document.createTextNode("sandip");
+        firstHeading.appendChild(text);
+    
+        
+        firstDiv.textContent ="ye welcome to my faltu code";
+
+        let prt = document.getElementById("main-heading");
+        console.log(prt.textContent);
+
+
+
+        
+
+
+
+
+    </script>
+</body>
+</html>
