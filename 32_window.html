@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="dik">login</div>
+    <div id="you">youtube</div>
+    <script>
+        console.log(window.innerHeight);
+        console.log(window.innerWidth);
+        console.log(window.outerHeight);
+        console.log(window.outerWidth);
+
+        let sdf = document.getElementById("dik");
+        let asf = document.getElementById("you");
+
+        sdf.addEventListener("click",function (){
+            window.open("https://gemini.google.com/app","gemini","height=800,width= 500;");
+        });
+        asf.addEventListener("click",function (){
+            window.open("https://www.youtube.com/","gemini","height=800,width= 500;");
+        });
+
+
+    </script>
+</body>
+</html>

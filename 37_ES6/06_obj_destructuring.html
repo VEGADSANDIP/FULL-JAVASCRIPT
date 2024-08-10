@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let book = {
+            name:"sandip",
+            surname:"vegad",
+            person:{
+                age:24,
+                income:0
+            }
+        }
+        // let asd = book;
+        // console.log(asd);
+
+        let{name,surname,person:{age,income}}=book
+        console.log(book.person.age);
+    </script>
+</body>
+</html>
